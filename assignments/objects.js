@@ -30,7 +30,7 @@ const kennan = {
   email: "kdiben1@tinypic.com",
   gender: "M",
   speak: function(greeting) {
-    console.log(`${greeting}, my name is ${this.name}`);
+    return `${greeting}, my name is ${this.name}`;
   }
 };
 const keven = {
